@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* HEADER STYLES  */
+
+.welcome_text{
+    background-color: greenyellow;
+    padding-bottom: 1rem;
+}
+
+
+.small_line{
+    border: 5px solid blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    padding: 3px 5px;
+    border-bottom: 5px solid red;
+    border-top: 5px solid yellow;
+    margin: 5%;
+}
+
+.icon{
+    margin-left: 10px;
+color: brown;
+}
+
+.icon:hover{
+    color: red;
+}
+
+h4{
+    margin-left: 40%;
+    display: inline-flex;
+}
+
+/*
+body{
+    cursor: url(./images/bird\ 5.jpg), auto;
+} 
+*/
+
+html, body{
+    height: 100vh;
+    margin: 0;
+}
+
+
+.navbar{
+    background-color: greenyellow;  
+}
+
+.marginy{
+    margin-left: 10%;
+}
+
+
+.icony{
+    color: red;
+    
+}
+
+
+
+.inline{
+    display: flex;
+    float: right;
+    margin-top: 2%;
+    gap: 2%;
+    margin-right: 3%;
+}
+/*-----------------------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+/*  MAIN  */
+
+
+.jpgn{
+    width: 100%;
+    height: 60vh;
+}
+
+
+.card-details{
+    background-color: aqua;
+    border: 7px solid gray;
+    padding: 50%;
+   display: grid; 
+   justify-content: center;
+   align-items: center;
+width: fit-content;
+
+}
+
+
+.round_img{
+    border-radius: 60%;
+    height: 50vh;
+    width: 65%;
+    padding: 5px;
+border: solid 5px green;
+}
+
+.chook_white_text{
+    margin-left: 0.5rem;
+    color: blue;
+}
+
+h5{
+    color: rgb(6, 50, 50);
+}
+
+.down_gap{
+    margin-bottom: 1rem;
+}
+
+.ftt{
+    float: right;
+    background-color: green;
+}
+
+.ftt:hover{
+    background-color: greenyellow;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+/* FOOTER  */
+
+
+
+/* ABOT ME STYLES */
+body{
+    background-color: lightgrey;   
+}
+
+
+
+.about_image{
+padding: 5px;
+width: 30vw;
+height: 50vh;
+border: 4px solid black;
+box-shadow: 2px 3px 5px black;
+}
+
+.top{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(yellow, black,  blue);
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.white_text{
+    color: whitesmoke
+}
+
+.pix_text{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 3rem;
+}
+
+.marg_bttm{
+margin-bottom: 1rem;
+}
+
+#contact{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-image: url(./images/ocean-3605547_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.ww{
+    color: white;
+}
+
+
+
